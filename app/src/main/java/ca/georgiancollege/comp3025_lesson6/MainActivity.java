@@ -44,7 +44,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                    _welcomeLabel.setText(_userInputTextBox.getText());
+                // change welcome  label whenever user changes the EditText Control
+                _welcomeLabel.setText(_userInputTextBox.getText());
             }
 
             @Override
